@@ -15,7 +15,6 @@ def set_new_password():
 		set_new_password()
 	keyring.set_password('system', username, password)
 	print("New user created.")
-	#return password
 
 
 def validate(username):
